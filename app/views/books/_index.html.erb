@@ -11,7 +11,7 @@
     <tr>
       <td>
         <% link_to user_path(book.user) do %>
-          <%= attachement_image_tag(book.user, :profile_image, :fill, 50, 50, fallback: "Ruby.png" )%>
+          <%= attachment_image_tag(book.user, :profile_image_id, :fill, 50, 50, fallback: "Ruby.png" )%>
         <% end %>
       </td>
       <td>
